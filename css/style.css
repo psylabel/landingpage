@@ -1,0 +1,275 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.main-title {
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 66px;
+  color: #9DB0D1;
+  text-align: center;
+  margin: 100px 0 50px 0;
+}
+.text {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+}
+.text1 {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0 50px 0 15px;  
+}
+.text2 {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+.text3 {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-top: 20px; 
+  margin-right: 50px; 
+}
+.text4 {
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  color: #FFFFFF;
+  margin-top: 40px;
+  margin-right: 120px;
+}
+.text5 {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+.text6 {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 73px;
+  color: #FFFFFF;
+}
+.important {
+  font-weight: bold;
+}
+.btn {
+  background: #EBAC87;
+  border-radius: 10px;
+  border: 0;
+  padding: 24px 50px;
+  text-transform: uppercase;
+  font-family: 'Arapey';
+  font-size: 30px;
+  color: #FFFFFF;
+  margin: 50px 566px 50px 607px;
+}
+.btn1 {
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 0;
+  padding: 24px 50px;
+  text-transform: uppercase;
+  font-family: 'Arapey';
+  font-size: 30px;
+  color: #EBAC87;
+  margin-top: 50px;
+}
+.btn2 {
+  background: #EBAC87;
+  border-radius: 10px;
+  border: 0;
+  padding: 24px 50px;
+  text-transform: uppercase;
+  font-family: 'Arapey';
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.bullet {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #9DB0D1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.numer {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(235, 172, 135, 0.4);
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #EBAC87;
+  margin-top: -130px;
+  margin-left: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container2 .box {
+  flex: 0 1 600px;
+  margin-top: 35px;
+  background: #87C6EB;
+}
+.container {
+  display: flex;
+  background: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+}
+.container1 {
+  display: flex;
+  background: #87C6EB;
+  justify-content: space-between;
+}
+.container2 {
+  display: flex;
+  background: #87C6EB;
+  justify-content: space-between;
+}
+.container3 .box1 {
+  flex: 0 1 600px;
+  background: #FFFFFF;
+}
+.container3 {
+  display: flex;
+  background: #FFFFFF;
+  justify-content: space-between;
+}
+.container4 {
+  display: flex;
+  background: #FFFFFF;
+  justify-content: space-between;
+  align-items: center;
+}
+.caption {
+  width: 1440px;
+  height: 400px;
+  background:       url(C:/Work/landingpage/img/bg-cloud.png) repeat-x top / auto 200px, 
+    linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+  padding: 252px 120px 104px;
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+}
+.fundamentals {
+  width: 1440px;
+  height: 1047px;
+  background: #87C6EB;
+  margin-top: -31px;
+  padding-right: 120px;
+  padding-left: 120px;
+}
+.basement {
+  width: 600px;
+  height: 475px;
+  background: #87C6EB url(C:/Work/landingpage/img/mountain.png) no-repeat right bottom / auto 475px;
+}
+.base1 {
+  width: 1440px;
+  height: 180px;
+  background: #FFFFFF;
+  padding: 50px 120px;
+}
+.rec1 {
+  width: 350px;
+  height: 560px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin: -23px 0 0 0px;
+  padding: 20px 20px;
+}
+.image {
+  width: 310px;
+  height: 310px;
+  background: #EBAC87;
+}
+.image img {
+  width: 100%;
+}
